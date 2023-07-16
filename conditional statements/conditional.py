@@ -32,3 +32,9 @@ if (maths>35 and maths<101) and (eng>35 and eng<101):
 else:
     print("fail")
 
+maths:float(input("enter name:"))
+if maths>35 and maths<101:
+    print("pass")
+else:
+    print("fail")
+
