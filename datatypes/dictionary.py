@@ -86,6 +86,11 @@ sorted_list = sorted(list1, reverse=True)
 second_highest = sorted_list[1]
 print("The second highest value is:", second_highest)
 
+tuple1 = {2, 7, 34, 98, 3, 23, 56, 83, 12, 45, 98, 12, 102, 456}
+sorted_list = sorted(tuple1, reverse=True)
+second_highest = sorted_list[2]
+print("The second highest value is:", second_highest)
+
 
 
 
