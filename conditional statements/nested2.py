@@ -15,12 +15,12 @@ if pin==2222:
         if w_amount<=balance:
             balance = balance - w_amount
             print("Your updated balance is:",balance)
-            w_amount = int(input("enter maximum withdrawal:"))
-            if w_amount>=10000:
-                #balance = balance-w_amount
-                print("maximum withdrawal limit obtained")
+            max_withdrawal_amount = 10000
+            daily_withdrawal_limit = 10000
+            if balance >= daily_withdrawal_limit:
+                print("max amount limit cross")
             else:
-                print("maximum withdrawal limit obtained")
+                print("balance")
         else:
             print("Insufficient balance")
     elif option == 3:
