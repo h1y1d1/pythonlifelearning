@@ -1,7 +1,8 @@
 #ATM code and pin value is 2222
-pin = int(input("enter your pin:"))
+"""current_pin = int(input("enter your pin:"))
+new_pin = int(input("Enter new PIN: "))
 balance = 902345
-if pin==2222:
+if current_pin==2222:
     print("Welcome to python bank")
     print("1.balance enquiry")
     print("2.Withdraw")
@@ -32,9 +33,37 @@ if pin==2222:
         print("how can i help you")
     else:
         print("invalid option")
+    if new_pin == current_pin:
+        print("New PIN cannot be the same as the current PIN.")
+    else:
+        current_pin = new_pin
+        print("PIN changed successfully.")
 
 else:
-    print("Invalid pin")
+    print("Invalid pin")"""
 # 5. Mobile number change need new contact information (enter old mobile and enter new mobile)
-# 6. PIN number change 
 
+current_mobile_number = int(input("enter your current number:"))
+new_mobile_number = int(input("enter new number:"))
+
+if current_mobile_number == 1232325645:
+    print("current_mobile_number",current_mobile_number)
+    if new_mobile_number == 1112223335:
+        print("mobile number changed sucessfully",new_mobile_number)
+    else:
+        print("mobile number unchanged sucessfully")
+else:
+    print("error")
+
+
+
+
+# 6. PIN number change 
+"""current_pin = 1234
+new_pin = int(input("Enter new PIN: "))
+
+if new_pin == current_pin:
+    print("New PIN cannot be the same as the current PIN.")
+else:
+    current_pin = new_pin
+    print("PIN changed successfully.")"""
