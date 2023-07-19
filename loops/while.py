@@ -60,7 +60,18 @@ while circle !=0:
     count+=1
     circle = int(input("enter your circle radius: "))"""
 
+#first ten odd nymbers -- 1,3,5,7,9,11,13,15,17,19,21
 
+count = 0
+num = 0
+while count<10:
+    if num%2!=0:
+        print(num)
+        num+=1
+        count+=1
+    else:
+        print("skip")
+        num+=1
 
 
 
