@@ -59,6 +59,7 @@ def even(num):
         return "even number"
     else:
         return "odd number"
-    
-print(even(29))
+
+num = int(input("no:"))
+print(even(num))
 
