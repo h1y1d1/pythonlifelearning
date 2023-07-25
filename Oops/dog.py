@@ -10,3 +10,4 @@ if __name__ == "__main__":
     print(dog1.age)
     print(dog2.name)
     print(dog2.age)
+#In Python, the if __name__ == "__main__": line is used to control the execution of code when a Python script is run as the main program. It allows you to separate the code that should be executed when the script is run directly from the code that should only be executed when the script is imported as a module in another script.
