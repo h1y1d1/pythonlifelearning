@@ -17,23 +17,21 @@ c = child()
 c.display()"""
 
 class daddy:
-    def details(self,name,sur_name,age,place):
+    def details(self, name, sur_name, age, place):
         self.name = name
         self.sur_name = sur_name
         self.age = age
         self.place = place
-        print("name:",name,"sur_name:",sur_name,"age:",age,"place:",place)
-
-
-
-class surya(daddy):
-    def details(self,name,age):
-        self.name = name
-        self.age = age
-        super().details(name,self.sur_name,age,self.place)
-        print("name:",name,"sur_name:",self.sur_name,"age:",age,"place:",self.place)
+        print("name:", name, "sur name:", sur_name, "age:", age, "place:", place)
 
 venkat = daddy()
-venkat.details("venkat","chandana",65,"hyd")
+venkat.details("venkat", "chandana", 65, "hyd")
+
+class surya(daddy):
+    def details(self, name, age,sur_name,place):
+        self.name = name
+        self.age = age
+        super().details(name,age, sur_name,place)
+        
 name = surya()
-name.details("surya",40)
+name.details("surya",40,"chandana","hyd")
