@@ -1,0 +1,7 @@
+: append (add at the end) - it wont override the existing
+r+: read and write, previous data in the file will be overridden
+w+: write and read and overiding
+a+: append and read data from file
+
+
+sadfsdfjskdjfnksf
