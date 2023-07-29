@@ -21,5 +21,33 @@ for lines in text:
     print(lines)"""
 
 #creating file
-create = open("D:\Python training\Pythonlife\pyhtonlifelearning\Oops\pythonlife.txt",'w')
-create.write("this is a session about file handling")
+"""create = open("D:\Python training\Pythonlife\pyhtonlifelearning\Oops\pythonlife.txt",'w')
+create.write("I am learning file handling today")"""
+
+#if file not available
+"""saturday = open("file_handling.txt",'w')
+saturday.write("saturday is the best day")"""
+
+#append
+"""append = open("append.txt",'a')
+
+append.write("surya is a good boy")
+append.write("surya sir is not a bad boy")
+append.close()"""
+
+"""python = open("D:\Python training\Pythonlife\pyhtonlifelearning\Oops\python_intro.txt","r")
+
+#print(python.read(25))
+text = python.readlines()
+for lines in text:
+    word = lines.split()
+
+print(word)"""
+
+import csv
+
+with open('d:\IT Training courses\SQL Server\Employee Sample Data.xlsx.csv', 'r') as csvfile:
+    #csvfile.write("End of data")
+    reader = csv.reader(csvfile)
+    for row in reader:
+        print(row)

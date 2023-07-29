@@ -1,3 +1,1 @@
-this is a session about file handling
-print type, i am typing now
-surya sir internet connection is ok, i am getting 
+I am learning file handling today
