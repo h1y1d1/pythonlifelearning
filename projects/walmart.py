@@ -3,14 +3,14 @@ from datetime import datetime
 name =input("enter item name: ")
 #Lists of items
 lists='''
-Rice    $ 20/kg
-Sugar   $ 30/kg
-salt    $ 20/kg
-Oil     $ 80/litre
-Paneer  $ 110/kg
-Maggi   $ 50/kg
-Boost   $ 90/each
-Colgate $ 85/each
+Rice    $ 2/lb
+Sugar   $ 3/lb
+salt    $ 1/lb
+Oil     $ 5/litre
+Paneer  $ 1.5/lb
+Maggi   $ 1/lb
+Boost   $ 4/each
+Colgate $ 4/each
 '''
 
 #declaration
@@ -23,7 +23,7 @@ qlist = []
 plist = []
 
 #rates for items
-items={'rice':20,'sugar':30,'salt':20,'oil':80,'paneer':110,'maggi':50,'boost':90,'colgate':85}
+items={'rice':2,'sugar':3,'salt':2,'oil':5,'paneer':1.5,'maggi':1,'boost':4,'colgate':4}
 
 option=int(input("for list of items press 1:"))
 if option == 1:
